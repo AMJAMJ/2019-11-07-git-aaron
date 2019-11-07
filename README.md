@@ -13,4 +13,11 @@
   - 'origin': the deafult you give your remote
 - 'push': sending local changes to remote
 - 'pull': recieving changes from remote
+## Branches
+- 'branch <branch_name>': create new branch
+- 'checkout <branch_name>': move to that branch
+  - 'checkout -b' <branch_name>': create and move at the same time
+- 'branch -a': see what branches we have
+
+- 'log --oneline --graph --decorate --all': what is going on
 

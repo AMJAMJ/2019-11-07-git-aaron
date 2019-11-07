@@ -20,4 +20,11 @@
 - 'branch -a': see what branches we have
 
 - 'log --oneline --graph --decorate --all': what is going on
+ - 'branch -d': delete a branch that was merged
+   - 'branch -D: force delete a branch that was *not* merged
+   
+## Updating history
 
+- 'rebase' <branch_name>': incorporate changes in <branch_name>, 
+e.g., 'master' int current branch, e.g., 'project_template'
+  - You perform this command on the feature branch, not on 'master'
